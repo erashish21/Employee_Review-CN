@@ -30,7 +30,7 @@ app.use(express.static('./assets'));
 // Setting up the view engine
 app.set('view engine','ejs');
 app.set('views','./views');
-
+//express layout
 app.use(expressLayout);
 
 // mongo store is used to store the session cookie in the db 
@@ -58,7 +58,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use(passport.setAuthenticatedUser);
 
-// Using Connect flash
+// Using Connect flash -
 app.use(flash());
 app.use(flashMiddleWare.setFlash);
 
