@@ -1,4 +1,5 @@
 const express = require('express'); // requiring express, 
+//use env for deploy
 const port = process.env.PORT|| 8000; // assigning port, so that I can try and test as this post,
 const app = express(); 
 
