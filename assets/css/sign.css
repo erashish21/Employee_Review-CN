@@ -10,36 +10,29 @@
     justify-content: center;
     margin-top: 20vh;
     margin-left: 30vw;
-    height: 50vh;
-    width: 40vw;
-    border: 1px solid black;
+    height: 40vh;
+    width: 30vw;
+   border-radius: 10px;
+    background-color: RGB(91, 94, 166);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-/* The main container is divided into two part */
-.companyLogo{ 
-    background-color:#188b6b;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    height: 100%;
-    width: 40%;
-    
-}
+
+
 /* Company Logo,  */
 .companyLogo img{
    height:100px;
    width:100px;
-   
 }
 
-.formInput{
+/* .formInput{
      background-color:#B4F1B1;
     height: 100%;
     width: 60%;
-    /* margin-left: 10%; */
-}
+     margin-left: 10%; 
+} */
 /* Form heading */
 .formInput h1{
-    margin-left: 30%;
+    margin-left: 10%;
     color:black;
 }
 
@@ -59,7 +52,7 @@ form input{
 .buttons{
     display: flex;
     flex-direction: row;
-
+    color: white;
 }
 .submitButtons{
     width: 40%;
@@ -69,9 +62,20 @@ form input{
 .submitButtons button{
     width: 100%;
     border-radius: 30px;
-    background-color: #B4F1B1;
+    background-color: white;
+}
+button:hover{
+    background-color:RGB(91, 94, 166); 
 }
 
 .extraStuff{
     margin-top: 20px;
+    color: white;
+}
+.extraStuff a{
+    
+    color: white;
+}
+.forgetPassword a{
+    color: white;
 }

@@ -5,7 +5,7 @@
   /* Styling for navBar, I have made nav Bar as flex, and all the element inside this navBar is going to 
   in row wise */
   .navBar{
-    background-color:#188b6b;
+    background-color:RGB(91, 94, 166);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -14,8 +14,8 @@
 .nameOfApp a{
     font-size: 45px;
     text-decoration: none;
-    margin-left:-15px;
-    color:yellow;
+    margin-left:5px;
+    color:white;
     letter-spacing:4px;
     font-weight: 600;
     text-shadow: -1px 1px 0 #41ba45,
