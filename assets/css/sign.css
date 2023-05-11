@@ -16,19 +16,23 @@
 }
 /* The main container is divided into two part */
 .companyLogo{ 
-    background-color:RGB(91, 94, 166);
+    background-color:#188b6b;
     display: flex;
     justify-content:center;
     align-items:center;
     height: 100%;
     width: 40%;
-    color: white;
+    
 }
 /* Company Logo,  */
-
+.companyLogo img{
+   height:100px;
+   width:100px;
+   
+}
 
 .formInput{
-     background-color:white;
+     background-color:#B4F1B1;
     height: 100%;
     width: 60%;
     /* margin-left: 10%; */
@@ -65,7 +69,7 @@ form input{
 .submitButtons button{
     width: 100%;
     border-radius: 30px;
-    background-color:RGB(91, 94, 166);
+    background-color: #B4F1B1;
 }
 
 .extraStuff{
